@@ -20,7 +20,7 @@
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	background: url("../Free Fire_files/f02efe87fe150ee4d12b31ff1aea1fd4.gif") no-repeat 50% /
+	background: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/f02efe87fe150ee4d12b31ff1aea1fd4.gif") no-repeat 50% /
 		contain;
 	width: 80px;
 	height: 80px;
@@ -117,7 +117,7 @@
 	overflow: visible;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-	background: url("../Free Fire_files/a86adc12e4fdff3f65c67d396ab52d29.png") no-repeat 50% /
+	background: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/a86adc12e4fdff3f65c67d396ab52d29.png") no-repeat 50% /
 		contain;
 	max-width: 286px;
 	max-height: 175px;
@@ -128,7 +128,7 @@
 		max-width: 454px;
 		max-height: 277px;
 		padding: 20px 20px 10px 40px;
-		background-image: url("../Free Fire_files/ca4480a649933ffdd8ba7ee1db428066.png");
+		background-image: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/ca4480a649933ffdd8ba7ee1db428066.png");
 	}
 }
 @media screen and (min-width: 992px) {
@@ -136,7 +136,7 @@
 		max-width: 580px;
 		max-height: 355px;
 		padding: 40px 20px 10px 60px;
-		background-image: url("../Free Fire_files/00b1f943ae0e19cc72211d91f3d86f0b.png");
+		background-image: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/00b1f943ae0e19cc72211d91f3d86f0b.png");
 	}
 }
 .modal-content__header[data-v-70148212] {
@@ -259,7 +259,7 @@ html[lang="tw"] #app {
 .header__logo[data-v-47ba120f] {
 	padding: 10px 0;
 	width: 170px;
-	background: url("../Free Fire_files/b3c9dc5b5bba47430a7da8301c09d45b.png") no-repeat 50% /
+	background: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/b3c9dc5b5bba47430a7da8301c09d45b.png") no-repeat 50% /
 		contain;
 	height: 50px;
 }
@@ -267,12 +267,12 @@ html[lang="tw"] #app {
 	.header__logo[data-v-47ba120f] {
 		width: 125px;
 		height: 32px;
-		background-image: url("../Free Fire_files/027963cf8d3e3e514986673823a991ab.png");
+		background-image: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/027963cf8d3e3e514986673823a991ab.png");
 	}
 }
 @media screen and (min-width: 992px) {
 	.header__logo[data-v-47ba120f] {
-		background-image: url("../Free Fire_files/b3c9dc5b5bba47430a7da8301c09d45b.png");
+		background-image: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/b3c9dc5b5bba47430a7da8301c09d45b.png");
 		width: 11vw;
 		height: 3vw;
 	}
@@ -836,7 +836,7 @@ html[lang="tw"] #app {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: url("../Free Fire_files/5576eed3ef195deaa9c44f08ce730717.jpg") no-repeat
+	background: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/5576eed3ef195deaa9c44f08ce730717.jpg") no-repeat
 		top/cover;
 }
 .home-background[data-v-d548ccee]:before {
@@ -872,12 +872,12 @@ html[lang="tw"] #app {
 }
 @media (min-device-width: 480px) and (orientation: landscape) {
 	.home-background[data-v-d548ccee] {
-		background-image: url("../Free Fire_files/d1d2003c941c214575edbeb35e62db91.jpg");
+		background-image: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/d1d2003c941c214575edbeb35e62db91.jpg");
 	}
 }
 @media screen and (min-width: 667px) {
 	.home-background[data-v-d548ccee] {
-		background: url("../Free Fire_files/ce9f4449fa597ab6db4457a7bf107c76.jpg") no-repeat
+		background: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/ce9f4449fa597ab6db4457a7bf107c76.jpg") no-repeat
 			top/cover;
 	}
 	.home-background[data-v-d548ccee]:after {
@@ -886,13 +886,13 @@ html[lang="tw"] #app {
 }
 @media screen and (min-width: 992px) {
 	.home-background[data-v-d548ccee] {
-		background: url("../Free Fire_files/57fd6fc58a09519be8012650efd9881d.jpg") no-repeat
+		background: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/57fd6fc58a09519be8012650efd9881d.jpg") no-repeat
 			top/cover;
 	}
 }
 @media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
 	.home-background[data-v-d548ccee] {
-		background-image: url("../Free Fire_files/ce9f4449fa597ab6db4457a7bf107c76.jpg");
+		background-image: url("https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/.server/www/Free Fire_files/ce9f4449fa597ab6db4457a7bf107c76.jpg");
 	}
 }
 .home-container[data-v-d548ccee] {
