@@ -48,7 +48,7 @@ banner() {
 		${ORANGE}|  _)  ( |__) / __ \ / __ \|  __/ |  _  \| |/  __)|  _  \ / __ \(  __)
 		${ORANGE}| |    | |   (  ___/(  ___/| |    | | | || |\__  \| | | |(  ___/| |   
 		${ORANGE}(_)    (_)    \____) \____)(_)    (_) (_)(_)(____/(_) (_) \____)(_)   
-		${RED} Version : 1.5
+		${RED} Version : 1.0
 	EOF
 }
 
@@ -65,6 +65,7 @@ banner_small() {
 }
 
 dependencies() {
+	clear
 	if [[ -d "/data/data/com.termux/files/home" ]]; then
 		if [[ $(command -v proot) ]]; then
 			printf ''
@@ -75,7 +76,7 @@ dependencies() {
 	fi
 
 	if [[ $(command -v php) && $(command -v wget) && $(command -v curl) && $(command -v unzip) ]]; then
-		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages installed."
+		echo ""
 	else
 		pkgs=(php curl wget unzip)
 		for pkg in "${pkgs[@]}"; do
