@@ -34,9 +34,14 @@ chmod +x *
 ./FreePhisher.sh
 ```
 
-
 ## Images
 
 <img src="https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/images/Screenshot%20from%202021-04-06%2011-20-45.png">
 
 <img src="https://raw.githubusercontent.com/KumarLakshmanan/FreePhisher/main/images/Screenshot%20from%202021-04-06%2011-21-01.png">
+
+
+# Follow us
+
+  - [YouTube](https://youtube.com/CodingFrontend)
+  - [FaceBook](https://facebook.com/groups/frontendprogramming)
