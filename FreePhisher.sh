@@ -48,7 +48,7 @@ banner() {
 		${ORANGE}|  _)  ( |__) / __ \ / __ \|  __/ |  _  \| |/  __)|  _  \ / __ \(  __)
 		${ORANGE}| |    | |   (  ___/(  ___/| |    | | | || |\__  \| | | |(  ___/| |   
 		${ORANGE}(_)    (_)    \____) \____)(_)    (_) (_)(_)(____/(_) (_) \____)(_)   
-		${RED} Version : 1.0
+		${RED} Version : 1.5
 	EOF
 }
 
@@ -65,7 +65,6 @@ banner_small() {
 }
 
 dependencies() {
-	echo -e "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Installing required packages..."
 	if [[ -d "/data/data/com.termux/files/home" ]]; then
 		if [[ $(command -v proot) ]]; then
 			printf ''
@@ -76,7 +75,7 @@ dependencies() {
 	fi
 
 	if [[ $(command -v php) && $(command -v wget) && $(command -v curl) && $(command -v unzip) ]]; then
-		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages already installed."
+		echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Packages installed."
 	else
 		pkgs=(php curl wget unzip)
 		for pkg in "${pkgs[@]}"; do
@@ -106,8 +105,8 @@ dependencies() {
 }
 
 download_ngrok() {
-	echo -e "\n${GREEN}[${WHITE}Downloading...${GREEN}]${GREEN} $1"
-	echo -e "\n${GREEN}Please wait ... (2-4 minutes it Depends on your Phone Netword Speed.)${GREEN}"
+	echo -e "\n${GREEN}Downloading ${GREEN} $1"
+	echo -e "\n${GREEN}Please wait ...${GREEN}"
 	url="$1"
 	file=$(basename $url)
 	if [[ -e "$file" ]]; then
