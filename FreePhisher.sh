@@ -119,6 +119,7 @@ download_ngrok() {
 		mv -f ngrok .server/ngrok >/dev/null 2>&1
 		rm -rf "$file" >/dev/null 2>&1
 		chmod +x .server/ngrok >/dev/null 2>&1
+		main_menu
 	else
 		echo -e "\n${RED}[${WHITE}!${RED}]${RED} Error occured, Install Ngrok manually."
 		{
