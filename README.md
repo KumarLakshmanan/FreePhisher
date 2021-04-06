@@ -2,7 +2,7 @@
 
 ## Description
 
-> Phish Social medias by usig FreeFire Game Redeem Page
+> Phish Social medias by using FreeFire
 
 ```
 [+] Facebook
